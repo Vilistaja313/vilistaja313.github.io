@@ -1,0 +1,185 @@
+
+/* Header alignment stuff*/
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+}
+
+.leftSide{
+    display: flex;
+    align-items: baseline;
+    gap: 0.3vw;
+}
+
+.logo{
+    align-self: right;
+    width: clamp(30px, 120px, 120px);
+    height: clamp(25px, 100px, 100px);
+    margin-right: 2vw;
+    padding: 0vw;
+}
+
+/* Midsection alignment stuff*/
+.sloganContainer p {
+    margin: 0; /* Remove default paragraph margins */
+}
+.sloganContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8vw;
+    margin-bottom: 5vw;
+    gap: 0.5vw;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    margin: 2vw 0;
+    margin-bottom: 8vw;
+}
+
+.discordContainer a,
+.workWithUsContainer a {
+    display: inline-block;
+    padding: 4vw 10vw;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.discordContainer{
+    background-color: black;
+    border-radius: 8px;
+}
+
+.workWithUsContainer{
+    background-color:black;
+    border-radius: 8px;
+}
+
+.sloganContainer2 p {
+    margin: 0; /* Remove default paragraph margins */
+}
+.sloganContainer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10vw;
+    gap: 3vw;
+}
+
+/*Footer alignment stuff*/
+
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #D9D9D9;
+    align-items: flex-start;
+    padding: 2vw;
+    gap: 2vw;
+}
+
+.contactContainer,
+.socialContainer,
+.discordActionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.contactContainer h3,
+.socialContainer h3,
+.discordContainer h3 {
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.contactContainer p,
+.socialContainer p {
+    margin: 0;
+}
+
+
+
+/*Fonts & styling*/
+
+.vire{
+    font-family: "Inter", sans-serif;
+    font-size: clamp(12px, 96px, 96px);
+    font-weight: 800;
+    margin-top: 0.3vw;
+}
+
+.games{
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-size: clamp(12px, 36px, 36px);
+
+}
+
+.futureLine{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: clamp(12px, 24px, 24px);
+}
+
+.comingLine{
+    font-family: "Inter", sans-serif;
+    font-size: clamp(12px, 24px, 24px);
+}
+
+.buttonText{
+    font-family: "Inter", sans-serif;
+    font-size: clamp(12px, 20px, 20px);
+    color: white;
+
+}
+
+.games{
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-size: clamp(12px, 36px, 36px);
+
+}
+
+.vireLine{
+    font-family: "Inter", sans-serif;
+    font-size: clamp(12px, 20px, 20px);
+}
+
+.joinOurDiscordBottom{
+    font-family: "Inter", sans-serif;
+    font-size: clamp(12px, 20px, 20px);
+    font-weight: 800;
+}
+
+.contactContainer{
+    gap: 0.5vw;
+}
+
+.socialContainer{
+    gap: 0.5vw;
+}
+.footerHead{
+    font-family: "Inter", sans-serif;
+    font-size: clamp(12px, 20px, 20px);
+    font-weight: 600;
+}
+
+.footerText{
+    font-family: "Inter", sans-serif;
+    font-size: clamp(12px, 20px, 20px);
+    font-weight: 400;
+}
