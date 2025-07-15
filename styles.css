@@ -157,6 +157,9 @@
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    pointer-events: auto;
+    position: relative;
+    z-index: 2;
 }
 
 
