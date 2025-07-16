@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>VIRE</title>
@@ -17,28 +17,29 @@
         <img class="logo" src="images/vire-logo-1.png" alt="Logo">
     </div>
     </header>
-
-
-
     <main>
-
         <div class="sloganContainer">
-            <p class="futureLine">The future of interactive gaming starts here.</p>
-            <p class ="comingLine">Coming 2026.</p>
+            <h1>Work at Vire</h1>
+            <p class="futureLine">Apply below — we're always open to talent.</p>
         </div>
 
-        <div class="buttonContainer">
-            <div class="discordContainer">
-                <a href="https://discord.gg/mNQtKjaK" class="buttonText" target="_blank" rel="noopener noreferrer">Join the Discord here!</a>
-            </div>
-            <div class="workWithUsContainer">
-                <a class ="buttonText">Work with us?</a>
-            </div>
+        <div class="formContainer">
+            <form action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST" enctype="multipart/form-data">
+                <input type="text" name="name" placeholder="Your name" required />
+                
+                <textarea name="message" rows="5" placeholder="Short message about you" required></textarea>
+
+                <input type="file" name="cv" accept=".pdf,.doc,.docx" required />
+
+                <!-- Optional: redirect after submission -->
+                <input type="hidden" name="_redirect" value="https://vilistaja313.github.io/thankyou.html">
+
+                <button type="submit">Submit Application</button>
+            </form>
         </div>
 
         <div class="sloganContainer2">
             <p class ="vireLine">At VIRE, we're creating the first game ever that can interpret the player.</p>
-            <p class ="joinOurDiscordBottom">Join our discord.</p>
         </div>
 
     </main>
