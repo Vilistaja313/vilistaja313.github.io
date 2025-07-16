@@ -273,3 +273,69 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
     background-color: black;
 }
+
+
+@media (max-width: 600px)
+{
+    .vire{
+        font-size: clamp(12px, 40px, 40px);
+    }
+
+    .games{
+        font-size: clamp(8px, 16px, 16px);
+    }
+
+    .logo{
+        width: 13vw;
+        height: 11vw;
+    }
+    .sloganContainer{
+        margin-bottom: 15vw;
+    }
+
+    .futureLine{
+        font-size: clamp(12px, 16px, 16px);
+    }
+
+    .comingLine{
+        font-size: clamp(12px, 16px, 16px);
+    }
+
+    .buttonContainer{
+        flex-direction: column;
+        gap: 3vw;
+        margin-bottom: 15vw;
+    }
+    .discordContainer{
+        padding: 1vw 3vw;
+    }
+
+    .sloganContainer2{
+        margin-bottom: 15vw;
+    }
+    .vireLine{
+        font-size: clamp(12px, 16px, 16px);
+    }
+    .joinOurDiscordBottom{
+        font-size: clamp(12px, 16px, 16px);
+    }
+
+    .footerContainer{
+        flex-direction: column;
+        align-items: left;
+        justify-content: left; 
+        padding: 0;
+        gap: 8vw;
+    }
+    .contactContainer,
+    .socialContainer,
+    .discordActionContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left; 
+        flex: 1;
+        margin-left: 3vw;
+        margin-top: 2vw;
+    }
+}
