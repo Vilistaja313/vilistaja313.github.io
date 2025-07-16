@@ -261,7 +261,8 @@ form input::file-selector-button:hover {
 form button[type="submit"] {
     font-family: "Inter", sans-serif;
     padding: 1rem;
-    background-color: black;
+    /* background-color: #b319ab; */
+    background-color: #ff3319;
     color: white;
     font-size: 1rem;
     border: none;
@@ -273,7 +274,10 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
     background-color: black;
 }
-
+.contactUsText{
+    font-family: "Inter", sans-serif;
+    font-size: clamp(12px, 40px, 40px);
+}
 
 @media (max-width: 600px)
 {
@@ -290,6 +294,7 @@ form button[type="submit"]:hover {
         height: 11vw;
     }
     .sloganContainer{
+        margin-top: 30vw;
         margin-bottom: 15vw;
     }
 
@@ -304,14 +309,14 @@ form button[type="submit"]:hover {
     .buttonContainer{
         flex-direction: column;
         gap: 3vw;
-        margin-bottom: 15vw;
+        margin-bottom: 30vw;
     }
     .discordContainer{
         padding: 1vw 3vw;
     }
 
     .sloganContainer2{
-        margin-bottom: 15vw;
+        margin-bottom: 30vw;
     }
     .vireLine{
         font-size: clamp(12px, 16px, 16px);
