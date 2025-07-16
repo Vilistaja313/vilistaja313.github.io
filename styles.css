@@ -215,7 +215,7 @@ form {
     gap: 1.5vw;
     width: 80vw;
     max-width: 600px;
-    background-color: #eeeeee;
+    background-color: #f4f4f7;
     padding: 3vw;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
@@ -229,8 +229,8 @@ form input[type="file"] {
     padding: 1rem;
     border: none;
     border-radius: 5px;
-    background-color: #aaa8a8;
-    color: white;
+    background-color: white;
+    color: black;
     outline: none;
 }
 
@@ -241,7 +241,7 @@ form textarea {
 
 form input::file-selector-button {
     font-family: "Inter", sans-serif;
-    background-color: #5865F2;
+    background-color: black;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -250,13 +250,13 @@ form input::file-selector-button {
 }
 
 form input::file-selector-button:hover {
-    background-color: #4752c4;
+    background-color: black;
 }
 
 form button[type="submit"] {
     font-family: "Inter", sans-serif;
     padding: 1rem;
-    background-color: #5865F2;
+    background-color: black;
     color: white;
     font-size: 1rem;
     border: none;
@@ -266,5 +266,5 @@ form button[type="submit"] {
 }
 
 form button[type="submit"]:hover {
-    background-color: #4752c4;
+    background-color: black;
 }
