@@ -261,8 +261,8 @@ form input::file-selector-button:hover {
 form button[type="submit"] {
     font-family: "Inter", sans-serif;
     padding: 1rem;
-    /* background-color: #b319ab; */
     background-color: #ff3319;
+    
     color: white;
     font-size: 1rem;
     border: none;
